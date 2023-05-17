@@ -6,7 +6,7 @@ set -ouex pipefail
 # Global state, please keep to a minimum
 BOOT_MENU_PATH="${BOOT_MENU_PATH:-boot_menu.yml}"
 readonly BOOT_MENU_PATH
-GITHUB_REPOSITORY_OWNER="${GITHUB_REPOSITORY_OWNER:-ublue-os}"
+GITHUB_REPOSITORY_OWNER="${GITHUB_REPOSITORY_OWNER:-blake-lucas}"
 readonly GITHUB_REPOSITORY_OWNER
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 readonly SCRIPT_DIR
